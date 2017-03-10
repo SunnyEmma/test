@@ -1,0 +1,16 @@
+body {
+	min-width: 500px;
+}
+main {
+	background-color: white;
+	text-align: center;
+	width: 50%;
+	margin: 18px auto;
+	padding-bottom: 40px;
+}
+main img {
+	width: 100%;
+}
+.blankBtn {
+	margin-top: 30px;
+}

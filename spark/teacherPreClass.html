@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<title>教师备课</title>
+<link rel="stylesheet" type="text/css" href="public.css"/>
+<link rel="stylesheet" type="text/css" href="teacherPreClass.css"/>
+</head>
+<body>
+<nav>
+	<img src="logo.png" class="logo" />
+	<div class="logoText">
+		<h1>晓 教 育</h1>
+		<span>XIAO<br>EDUCATION</span>
+	</div>
+	<ul class="navList">
+		<li>教师备课</li>
+		<li>在线上课</li>
+		<li>内容管理</li>
+		<li>权限管理</li>
+	</ul>
+	<div class="exitBtn"></div>
+	<div class="mail"></div>
+	<div class="person">Johny</div>
+	<img src="photo.png" class="photo" />
+</nav>
+<img src="subnav.PNG" style="width: 100%" />
+<main>
+	<div id="classTable">
+		<div class="head">
+			<h3>课程表</h3>
+			<button class="btn overtimeBtn" id="overtime">逾期备课记录</button>
+			<div class="tableTime"><span>&lt;</span> 2016年 2月9日-2月15日 <span>&gt;</span></div>
+		</div>
+		<ul class="timeLine">
+			<li>7:00</li>
+			<li>8:00</li>
+			<li>9:00</li>
+			<li>10:00</li>
+			<li>11:00</li>
+			<li>12:00</li>
+			<li>13:00</li>
+			<li>14:00</li>
+			<li>15:00</li>
+			<li>16:00</li>
+			<li>17:00</li>
+			<li>18:00</li>
+			<li>19:00</li>
+			<li>20:00</li>
+			<li>21:00</li>
+			<li>22:00</li>
+			<li>23:00</li>
+		</ul>
+		<table>
+			<thead>
+				<tr>
+					<td>周一/23日</td>
+					<td>周一/23日</td>
+					<td>周一/23日</td>
+					<td>周一/23日</td>
+					<td>周一/23日</td>
+					<td>周一/23日</td>
+					<td>周一/23日</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+			<div class="card" style="height: 60px;top: 134px;left: 170px;">
+				<div style="border-left: 3px solid #0277bd;padding-left:5px">
+					<b>陈慧琳</b>/数学<br>
+					<span style="font-size: 12px;color:#9e9e9e">高中一年级</span><br>
+					<span style="float: right;margin: 5px 3px;color:#1e88e5">未备课</span>
+				</div>
+				<div class="classInformation">
+					<div style="border-bottom:1px solid #e0e0e0;background-color: rgb(243,243,243);margin-bottom: 10px;">
+						<h4>课程信息</h4>
+						<ul>
+							<li><span>上课时间：</span>9:00-12:00</li>
+							<li><span>产品类型：</span>一对一</li>
+							<li><span>剩余课时：</span>55课时</li>
+							<li><span>学生姓名：</span>陈慧琳</li>
+							<li><span>年级：</span>五年级</li>
+							<li><span>科目：</span>数学</li>
+							<li><span>课程主题：</span>暂无...</li>
+						</ul>
+					</div>
+					<button class="btn">开始备课</button>
+				</div>
+			</div>
+		</table>
+		<ul class="stateList">
+			<li style="margin-left: 80px">状态：</li>
+			<li style="color: #1e88e5">未备课</li>
+			<li style="color: #ef6c00">备课逾期</li>
+			<li style="color: red">审核不过</li>
+			<li>审批中</li>
+			<li>待上课</li>
+			<li>上课中</li>
+			<li style="color: #01c184;">待考勤</li>
+			<li>已考勤</li>
+			<li>完成</li>
+			<li>老师请假</li>
+			<li>学生请假</li>
+		</ul>
+	</div>
+	<div id="overtimeRecord" class="show">
+		<div class="head">
+			<h3>课程表</h3>
+			<button class="btn overtimeBtn" id="PreClass">备课课程表</button>
+			<div class="tableTime"><span>&lt;</span> 2016年 2月9日-2月15日 <span>&gt;</span></div>
+			<select class="overtimeGrade">
+				<option>五年级</option>
+				<option>八年级</option>
+			</select>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th class="smalltd">序号</th>
+					<th>课程主题</th>
+					<th>上课时间</th>
+					<th>班名/学生名</th>
+					<th class="smalltd">科目</th>
+					<th class="smalltd">年级</th>
+					<th>校区</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="smalltd">1</td>
+					<td>相交线的定义</td>
+					<td>2016.08.24 08:30</td>
+					<td>2016春季提高班</td>
+					<td class="smalltd">数学</td>
+					<td class="smalltd">五年级</td>
+					<td>东泰校区</td>
+				</tr>
+				<tr>
+					<td class="smalltd">2</td>
+					<td>相交线的定义</td>
+					<td>2016.08.24 08:30</td>
+					<td>2016春季提高班</td>
+					<td class="smalltd">数学</td>
+					<td class="smalltd">五年级</td>
+					<td>东泰校区</td>
+				</tr>
+				<tr>
+					<td class="smalltd">3</td>
+					<td>相交线的定义</td>
+					<td>2016.08.24 08:30</td>
+					<td>2016春季提高班</td>
+					<td class="smalltd">数学</td>
+					<td class="smalltd">五年级</td>
+					<td>东泰校区</td>
+				</tr>
+				<tr>
+					<td class="smalltd">4</td>
+					<td>相交线的定义</td>
+					<td>2016.08.24 08:30</td>
+					<td>2016春季提高班</td>
+					<td class="smalltd">数学</td>
+					<td class="smalltd">五年级</td>
+					<td>东泰校区</td>
+				</tr>
+				<tr>
+					<td class="smalltd">5</td>
+					<td>相交线的定义</td>
+					<td>2016.08.24 08:30</td>
+					<td>2016春季提高班</td>
+					<td class="smalltd">数学</td>
+					<td class="smalltd">五年级</td>
+					<td>东泰校区</td>
+				</tr>
+			</tbody>
+		</table>
+		<ul class="pageNumber">
+			<li style="width: 40px">首页</li>
+			<li>&lt;</li>
+			<li class="pageNumberActive">1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>&gt;</li>
+			<li style="width: 40px;border-right: none">末页</li>
+		</ul>
+	</div>
+</main>
+<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="teacherPreClass.js"></script>
+</body>
+</html>

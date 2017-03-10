@@ -1,0 +1,230 @@
+body {
+	min-width: 935px;
+}
+.navList {
+	display: inline-block;
+}
+.navList li {
+	float: left;
+	width: 100px;
+	height: 57px;
+	text-align: center;
+	line-height: 52px;
+	vertical-align: top;
+}
+.navList li:hover {
+	background-color: #eeeeee;
+	border-top: 3px solid red;
+}
+nav .exitBtn {
+	background-color: #eeeeee;
+	height: 60px;
+	width:  60px;
+	float: right;
+	background-image: url('exit.PNG');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+nav .mail {
+	background-color: #eeeeee;
+	height: 60px;
+	width: 60px;
+	float: right;
+	background-image: url('mail.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 25px 18px;
+}
+nav .person {
+	width: 100px;
+	height: 60px;
+	background-image: url('arrow.PNG');
+	background-repeat: no-repeat;
+	background-position: right;
+	float: right;
+	text-align: center;
+	line-height: 60px;
+	margin-right: 10px;
+}
+nav .photo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: right;
+	margin: 5px;
+}
+main {
+	margin: 20px auto;
+	width: 890px;
+	height: 570px;
+	background-color: white;
+	position: relative;
+}
+.show {
+	display: none;
+}
+main .head {
+	width: 890px;
+	height: 30px;
+	background-color: rgb(243,243,243);
+	padding-bottom: 10px;
+}
+main h3 {
+	float: left;
+	border-left: 6px solid #19ae71;
+	padding-left: 10px;
+}
+main .tableTime {
+	float: right;
+	background-color: white;
+	height: 30px;
+	border-radius: 2px;
+	font-size: 13px;
+	line-height: 30px;
+	border: 1px solid #eeeeee;
+	margin-right: 10px;
+	padding: 0 5px;
+	color: #424242;
+}
+main .overtimeBtn {
+	background-color: white;
+	float: right;
+	color: #1e88e5;
+	border: 1px solid #eeeeee;
+}
+main #classTable .timeLine {
+	width: 50px;
+	height: 460px;
+	background-color: white;
+	display: inline-block;
+	padding-top: 32px;
+}
+main #classTable .timeLine li {
+	height: 26px;
+	width: 50px;
+	text-align: center;
+	font-size: 13px;
+	color: #424242;
+}
+main #classTable table {
+	width: 840px;
+	height: 490px;
+	background-color: white;
+	display: inline-block;
+	position: absolute;
+	left: 50px;
+	top: 40px;
+	border-collapse: collapse;
+}
+main #classTable thead tr td {
+	height: 40px;
+	text-align: center;
+	font-size: 13px;
+	color: #424242;
+}
+main #classTable table td {
+	width: 120px;
+	height: 50px;
+	border: 2px solid #eeeeee;
+}
+main #classTable .stateList li{
+	float: left;
+	font-size: 13px;
+	color: #757575;
+	margin: 0 10px;
+}
+#classTable .card {
+	width: 110px;
+	padding: 10px 5px;
+	background-color: rgb(243,243,243);
+	position: absolute;
+	z-index: 999;
+	font-size: 13px;
+	color: #616161;
+}
+#classTable .card:hover {
+	background-color: white;
+	border: 1px solid #1e88e5;
+	width: 108px;
+}
+#classTable .card:hover .classInformation {
+	display: block;
+}
+#classTable .card>div {
+	height: 60px;
+}
+#classTable .classInformation {
+	background-color:white;
+	display: none;
+	position: relative;
+	width: 250px;
+	height: 275px !important;
+	top: 12px;
+	left: -5px;
+	box-shadow: 2px 2px 3px rgba(117,117,17,0.3);
+	text-align: center;
+}
+#classTable .classInformation h4 {
+	border-bottom: 1px solid #e0e0e0;
+	padding: 12px 15px;
+}
+#classTable .classInformation ul {
+	padding: 15px;
+}
+#classTable .classInformation li {
+	margin-bottom: 5px;
+}
+
+#overtimeRecord .overtimeGrade {
+	float: right;
+	width: 100px;
+	height: 30px;
+	margin-right: 15px;
+}
+#overtimeRecord table {
+	border-collapse: collapse;
+}
+#overtimeRecord table th {
+	font-size: 14px;
+}
+#overtimeRecord table td {
+	border-top: 1px solid #bdbdbd;
+	border-bottom: 1px solid #bdbdbd;
+	width: 153px;
+	text-align: center;
+	font-size: 14px;
+	color: #616161;
+}
+#overtimeRecord .smalltd {
+	width: 93px;
+}
+#overtimeRecord table tr {
+	height: 40px;
+}
+#overtimeRecord table tr:hover td{
+	background-color: #eeeeee;
+}
+#overtimeRecord .pageNumber {
+	border: 1px solid #bdbdbd;
+	border-radius: 3px;
+	padding:5px;
+	float: right;
+	margin: 20px 10px;
+}
+#overtimeRecord .pageNumber li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-right: 1px solid #bdbdbd;
+	color: #616161;
+	margin: 0 5px 0 0;
+	cursor: pointer;
+	font-size: 13px;
+	border-radius: 3px;
+}
+#overtimeRecord .pageNumber li.pageNumberActive {
+	background-color: #01c184;
+	color: white;
+}

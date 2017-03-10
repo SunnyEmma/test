@@ -1,0 +1,33 @@
+.subNav {
+	background: url(bg2.PNG);
+	height: 80px;
+}
+.squareMain {
+	height: 650px;
+	padding: 15px;
+}
+main .squareNavList {
+	width: 200px;
+	height: 600px;
+	border: 1px solid #bdbdbd;
+}
+main .squareNavList>div {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	margin: 20px 0;
+	border: 1px solid #bdbdbd;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #616161;
+	cursor: pointer;
+}
+main .squareNavList .navActive {
+	border:1px solid #0288d1;
+	color:#0288d1;
+	background-color:#eeeeee;
+}
+main .squareNavList .squareListInput {
+	margin: 0 9px;
+}
